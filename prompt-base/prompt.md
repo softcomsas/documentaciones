@@ -4,9 +4,9 @@ Actúa como **arquitecto de software senior especializado en auditoría y docume
 
 **Datos del proyecto a documentar:**
 
-- **Nombre del proyecto:** `Muvinapp`
-- **Stack tecnológico:** `El proyecto es una aplicación Angular 6 escrita en TypeScript, basada en la plantilla Egret v6. Para la interfaz utiliza Angular Material y Kendo UI (grids, inputs, datepickers, dropdowns), junto con Angular Flex Layout y estilos en SCSS. El manejo de estado global se realiza con NgRx Store. Como backend usa Firebase/AngularFire 5 como BaaS. Para visualización de datos cuenta con Chart.js y ng2-charts, tablas avanzadas con Kendo Grid, ngx-datatable y Handsontable Pro, y mapas con Angular Google Maps (@agm). La generación de archivos se cubre con jsPDF, ExcelJS y file-saver. La internacionalización está manejada por @ngx-translate. Para pruebas usa Karma, Jasmine y Protractor, y el despliegue está dockerizado con un Dockerfile incluido en el repositorio.`
-- **Tipo de aplicación:** `Panel de administración web multi-rol para gestión de logística de transporte de granos y fertilizantes en Argentina. Integra el circuito completo: dador de carga → corredor/operador → transportista → chofer → terminal/planta destino, con integración MAGYP para carta de porte y gestión de cupos de descarga.`
+- **Nombre del proyecto:** `Completar con los datos del proyecto actual`
+- **Stack tecnológico:** `Completar con los datos del proyecto actual`
+- **Tipo de aplicación:** `Completar con los datos del proyecto actual`
 - **Antigüedad aproximada:** `10 años.`
 - **Idioma de la documentación:** Español (rioplatense/neutro según corresponda)
 - **Audiencia objetivo:** Desarrolladores nuevos, equipo de QA, arquitectos, responsables de producto y auditores técnicos.
