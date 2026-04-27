@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-inventarios/tree-estructura-archivos.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tree-estructura-archivos"
+              "title": "README"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "1800aee443e434d1",
   "lastOpenFiles": [
+    "05-inventarios/tree-estructura-archivos.md",
     "README.md",
     "04-modelo-de-datos/diagrama-er-global.md",
     "04-modelo-de-datos/_indice-entidades.md",
