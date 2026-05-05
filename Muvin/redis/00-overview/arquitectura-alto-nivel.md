@@ -5,29 +5,29 @@
 ```mermaid
 graph TB
     subgraph GitHub
-        REPO[Repositorio\nredis]
+        REPO[Repositorio redis]
         WF1[deploy-dev.yml]
         WF2[sync-cap.yml]
     end
 
     subgraph Vault
-        V[HashiCorp Vault\nvault.alternativasinteligentes.com\nmuvin/data/dev_ssh]
+        V[HashiCorp Vault]
     end
 
-    subgraph Servidor DEV
-        NET[Red: muvin-net\nbridge]
-        REDIS[Contenedor: muvin-redis\nredis:7\n:6379]
+    subgraph ServidorDEV[Servidor DEV]
+        NET[Red: muvin-net bridge]
+        REDIS[Contenedor: muvin-redis redis:7 :6379]
         NET --- REDIS
     end
 
-    subgraph Repo Externo Cap
-        CAP[Repo cap\n mirror]
+    subgraph RepoExternoCap[Repo Externo Cap]
+        CAP[Repo cap mirror]
     end
 
     REPO --> WF1
     REPO --> WF2
     WF1 -->|leer secretos SSH| V
-    WF1 -->|SSH + bash script| Servidor DEV
+    WF1 -->|SSH + bash script| ServidorDEV
     WF2 -->|git push mirror| CAP
 ```
 
